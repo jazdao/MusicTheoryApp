@@ -49,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/ellipse"
             app:layout_constraintTop_toBottomOf="@id/lesson3_1"/>
 
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="25dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:textColor="#17616b"
             android:textSize="23sp"
             android:fontFamily="sans-serif"

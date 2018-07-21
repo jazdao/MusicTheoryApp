@@ -95,7 +95,7 @@ public class Practice2 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice2.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice2.this, "Sorry, the correct answer is " + answer + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -111,7 +111,7 @@ public class Practice2 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice2.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice2.this, "Sorry, the correct answer is " + answer + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -127,7 +127,7 @@ public class Practice2 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice2.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice2.this, "Sorry, the correct answer is " + answer + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -143,7 +143,7 @@ public class Practice2 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice2.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice2.this, "Sorry, the correct answer is " + answer + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();

@@ -156,7 +156,7 @@ public class Practice5 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice5.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice5.this, "Sorry, the correct answer is " + answers[question] + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -172,7 +172,7 @@ public class Practice5 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice5.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice5.this, "Sorry, the correct answer is " + answers[question] + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -188,7 +188,7 @@ public class Practice5 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice5.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice5.this, "Sorry, the correct answer is " + answers[question] + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -204,7 +204,7 @@ public class Practice5 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice5.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice5.this, "Sorry, the correct answer is " + answers[question] + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();

@@ -170,7 +170,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="50dp"
             android:textColor="#17616b"
-            android:textSize="25sp"
+            android:textSize="30sp"
             android:fontFamily="@font/wendy"
             android:textStyle="bold"
             android:text="Relationship Between Notes"

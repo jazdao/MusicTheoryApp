@@ -139,7 +139,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -155,7 +156,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -171,7 +173,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -187,7 +190,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -203,7 +207,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -219,7 +224,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -235,7 +241,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -251,7 +258,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -267,7 +275,8 @@ public class Practice6 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice6.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice6.this, "Sorry, the correct answer is " +
+                            answer.getText().charAt(0) + answer.getText().charAt(1) + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();

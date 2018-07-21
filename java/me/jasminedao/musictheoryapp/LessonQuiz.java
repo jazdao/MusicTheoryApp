@@ -109,7 +109,6 @@ public class LessonQuiz extends AppCompatActivity {
                                 .putExtra("Score", mScore));
                         finish();
                     }
-
                     Toast.makeText(LessonQuiz.this, "That's correct!", Toast.LENGTH_SHORT).show();
                 }
                 else {
@@ -141,11 +140,12 @@ public class LessonQuiz extends AppCompatActivity {
                         finish();
                     }
 
-                    Toast.makeText(LessonQuiz.this, "That's correct!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LessonQuiz.this, "That's correct!", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(LessonQuiz.this, "Oops, wrong answer.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LessonQuiz.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
                     if (mQuestionNumber < 10) {
+                        updateQuestion();
                     }
                     else {
                         startActivity(new Intent(LessonQuiz.this, QuizResult.class)

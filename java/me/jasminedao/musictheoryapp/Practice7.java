@@ -136,7 +136,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -152,7 +152,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -168,7 +168,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -184,7 +184,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -200,7 +200,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -216,7 +216,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -232,7 +232,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
@@ -248,7 +248,7 @@ public class Practice7 extends AppCompatActivity {
                     score = (correct / questionNum) * 100;
                 }
                 else {
-                    Toast.makeText(Practice7.this, "Oops, wrong answer.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Practice7.this, "Sorry, the correct answer is " + answer.getText() + ".", Toast.LENGTH_SHORT).show();
                     score = (correct / questionNum) * 100;
                 }
                 updateQuestion();
