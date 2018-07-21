@@ -1,0 +1,504 @@
+<resources>
+    <string name="app_name">Music Theory for Beginners</string>
+
+    <string name="ornament">
+        &#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+        ♫&#160;&#160;&#160;&#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+        ♫&#160;&#160;&#160;&#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+        ♫&#160;&#160;&#160;&#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+        ♫&#160;&#160;&#160;&#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+        ♫&#160;&#160;&#160;&#160;&#160;&#160;
+        ♪&#160;&#160;&#160;&#160;&#160;&#160;
+    </string>
+
+    <string name="multilines1">
+        ♫&#160;&#160;&#160;Lesson 1:\nThe Musical Alphabet
+    </string>
+
+    <string name="multilines1_2">
+        ♫&#160;&#160;&#160;Practice 1:\nThe Musical Alphabet
+    </string>
+
+    <string name="multilines2">
+        ♫&#160;&#160;&#160;Lesson 2:\nHolding a Note
+    </string>
+
+    <string name="multilines2_2">
+    ♫&#160;&#160;&#160;Practice 2:\nHolding a Note
+    </string>
+
+    <string name="multilines3">
+        ♫&#160;&#160;&#160;Lesson 3:\nCounting Rests
+    </string>
+
+    <string name="multilines3_2">
+        ♫&#160;&#160;&#160;Practice 3:\nCounting Rests
+    </string>
+
+    <string name="multilines4">
+        ♫&#160;&#160;&#160;Lesson 4:\nTaking Measures
+    </string>
+
+    <string name="multilines4_2">
+        ♫&#160;&#160;&#160;Practice 4:\nTaking Measures
+    </string>
+
+    <string name="multilines5">
+        ♫&#160;&#160;&#160;Lesson 5:\nDots and Ties
+    </string>
+
+    <string name="multilines5_2">
+        ♫&#160;&#160;&#160;Practice 5:\nDots and Ties
+    </string>
+
+    <string name="multilines6">
+        ♫&#160;&#160;&#160;Lesson 6:\nAccidental on the Steps
+    </string>
+
+    <string name="multilines6_2">
+        ♫&#160;&#160;&#160;Practice 6:\nAccidental on the Steps
+    </string>
+
+    <string name="multilines7">
+        ♫&#160;&#160;&#160;Lesson 7:\nKey Signatures
+    </string>
+
+    <string name="multilines7_2">
+        ♫&#160;&#160;&#160;Practice 7:\nKey Signatures
+    </string>
+
+    <string name="multilines8">
+        ♫&#160;&#160;&#160;Lesson 8:\nBringing Everything Together
+    </string>
+
+    <string name="multilines8_2">
+        ♫&#160;&#160;&#160;Practice 8:\nBringing Everything Together
+    </string>
+
+    <string name="lesson1">
+        The Musical Alphabet
+    </string>
+
+    <string name="lesson1_1">
+        The &lt;u&gt;&lt;font color=#00b6cb&gt;staff&lt;/font&gt;&lt;/u&gt; is the framework upon which all musical notation- such as notes and other symbols- is written.  It is made up of five horizontal lines with four spaces in between, like so:
+    </string>
+
+    <string name="lesson1_2">
+        Each of these lines and spaces represents a different musical pitch, named after the first several letters of the alphabet: A, B, C, D, E, F, and G.  The higher a note is on the staff, the higher its pitch.
+    </string>
+
+    <string name="lesson1_3">
+          The note that is found on each line or space depends on the &lt;u&gt;&lt;font color=#00b6cb&gt;clef&lt;/font&gt;&lt;/u&gt;.  A clef is the symbol placed at the very beginning of the staff.  The two most commonly used clefs are the Treble Clef (left) and the Bass Clef (right).
+    </string>
+
+    <string name="lesson1_4">
+        The Treble Clef has a higher pitch than the Bass Clef, so when the two clefs are combined into a &lt;u&gt;&lt;font color=#00b6cb&gt;grand staff&lt;/font&gt;&lt;/u&gt;, the Treble Clef is placed on the staff above the Bass Clef.
+    </string>
+
+    <string name="lesson1_5">
+        The note at the very middle of the grand staff is called the &lt;u&gt;&lt;font color=#00b6cb&gt;Middle C&lt;/font&gt;&lt;/u&gt;.  Above the Middle C, each line and space on the Treble Clef corresponds with a letter after C in the alphabet.  When the sequence ends at G, it loops back to A.
+    </string>
+
+    <string name="lesson1_6">
+        The same thing applies with the Bass Clef, except in reverse; on the staff under the Middle C, each line and space represents a letter before C in the alphabet.  After the sequence reaches A, it loops back to G.
+    </string>
+
+    <string name="lesson1_7">
+        For each loop, there is an interval of eight notes between a starting note and another note of the same name.  Thus, a series of eight notes is called an &lt;u&gt;&lt;font color=#00b6cb&gt;octave&lt;/font&gt;&lt;/u&gt;.
+    </string>
+
+    <string name="lesson2_1">
+        The length of time that a note is played is called the note &lt;u&gt;&lt;font color=#00b6cb&gt;duration&lt;/font&gt;&lt;/u&gt;.  The duration of a note is defined not by the number of seconds that a note is held, but by the speed of the &lt;u&gt;&lt;font color=#00b6cb&gt;beat&lt;/font&gt;&lt;/u&gt;.
+    </string>
+
+    <string name="lesson2_2">
+        Note duration is determined by the type of note and its corresponding symbol.  These symbols differ in the shapes of the note head, flag, or stem.
+    </string>
+
+    <string name="lesson2_3">
+        The &lt;u&gt;&lt;font color=#00b6cb&gt;whole note&lt;/font&gt;&lt;/u&gt;, shaped like a hollowed out oval, has the longest note duration in modern music.  On a staff, this note is the size of the space between two lines.
+    </string>
+
+    <string name="lesson2_4">
+        The &lt;u&gt;&lt;font color=#00b6cb&gt;half note&lt;/font&gt;&lt;/u&gt; has half the duration of a whole note.  Therefore, the duration of two half notes is equal to that of one whole note.  A half note is shaped like a circle with a straight stem attached the one side.
+    </string>
+
+    <string name="lesson2_5">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;quarter note&lt;/font&gt;&lt;/u&gt; has half the duration of a half note, or a fourth of the duration of a whole note.  It is shaped like a half note with the note head filled in.
+    </string>
+
+    <string name="lesson2_6">
+        Notes smaller than a quarter note have flags attached to the top of the stem.  Each flag halves the value of a note.  An &lt;u&gt;&lt;font color=#00b6cb&gt;eighth note&lt;/font&gt;&lt;/u&gt; has one flag- ergo, it has half the duration of a quarter note.
+    </string>
+
+    <string name="lesson2_7">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;sixteenth note&lt;/font&gt;&lt;/u&gt; has two flags, so it has half the duration of a sixteenth note, and a fourth of the duration of a quarter note.  And on it goes.
+    </string>
+
+    <string name="lesson2_8">
+        If multiple flagged notes are placed beside each other, a beam may be used in place of the flags to link the two notes together.  Depending on the number of flags, additional beams are added underneath the first.
+    </string>
+
+    <string name="lesson3_1">
+        Similarly to how the type and symbol of a note indicates the duration it is played, the type and symbol of a &lt;u&gt;&lt;font color=#00b6cb&gt;rest&lt;/font&gt;&lt;/u&gt; indicates the duration of a period of silence.
+    </string>
+
+    <string name="lesson3_2">
+        Each type of rest has the same duration as a certain type of note.  A &lt;u&gt;&lt;font color=#00b6cb&gt;whole rest&lt;/font&gt;&lt;/u&gt;, for example, shares a duration with a whole note.  Like its counterpart, the whole rest has the longest note duration.
+    </string>
+
+    <string name="lesson3_3">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;half rest&lt;/font&gt;&lt;/u&gt; is shaped similarly to the whole rest, but is placed on the top of the third line instead of under the second.  Its duration is equal to that of a half note- and thus, half of a whole rest.
+    </string>
+
+    <string name="lesson3_4">
+        As its name suggests, the &lt;u&gt;&lt;font color=#00b6cb&gt;quarter rest&lt;/font&gt;&lt;/u&gt; has a period of silence equal to that of a quarter note.  It has a fourth of the duration of a whole rest and half the duration of a half rest.
+    </string>
+
+    <string name="lesson3_5">
+        The &lt;u&gt;&lt;font color=#00b6cb&gt;eighth rest&lt;/font&gt;&lt;/u&gt; and &lt;u&gt;&lt;font color=#00b6cb&gt;sixteenth rest&lt;/font&gt;&lt;/u&gt;, like their note counterparts, also possess a flag.  The number of these flags indicate the number of times the value of a rest should be halved.
+    </string>
+
+    <string name="lesson3_6">
+        Unlike notes, however, the tails of flags cannot be beamed together.
+    </string>
+
+    <string name="lesson4_1">
+        Staffs are divided into sections called &lt;u&gt;&lt;font color=#00b6cb&gt;measures&lt;/font&gt;&lt;/u&gt;, or bars, by vertical lines called &lt;u&gt;&lt;font color=#00b6cb&gt;bar lines&lt;/font&gt;&lt;/u&gt;.
+    </string>
+
+    <string name="lesson4_2">
+        The duration of a measure, determined by the types of notes or rests within it, is set by the &lt;u&gt;&lt;font color=#00b6cb&gt;time signature&lt;/font&gt;&lt;/u&gt;, a pair of vertically stacked numbers placed at the beginning of the top line.
+    </string>
+
+    <string name="lesson4_3">
+        The bottom number in a time signature tells you the type of note that represents a single beat, while the top number indicates how many of that type of note it takes to fill up a measure.  Together, they tell you the number of beats per measure.
+    </string>
+
+    <string name="lesson4_4">
+        If the bottom number is a 1, then a whole note is being counted.  The number 2 corresponds with a half note; 4 with a quarter note; 8 with an eighth note; 16 with a sixteenth note, and so on.
+    </string>
+
+    <string name="lesson4_5">
+        For example, if the number on the bottom is 1 and the number on the top is 3, then 3 whole notes will take up a full measure.  3 whole notes is also the equivalent of 6 half notes, 12 quarter notes, or even a combination of 4 half notes and 4 quarter notes.  However, a whole note is very rarely, if ever, used to set the beat in music pieces.
+    </string>
+
+    <string name="lesson4_6">
+        The most commonly used time signatures are the 2/4, 3/4, 4/4, and 6/8 meters.  For 4/4, also known as &lt;u&gt;&lt;font color=#00b6cb&gt;common time&lt;/font&gt;&lt;/u&gt;, each measure contains four quarter notes, or a single whole note- in other words, four beats per measure.
+    </string>
+
+    <string name="lesson4_7">
+        3/4, or &lt;u&gt;&lt;font color=#00b6cb&gt;waltz time&lt;/font&gt;&lt;/u&gt;, contains three quarter notes, or three beats, per measure.  The &lt;u&gt;&lt;font color=#00b6cb&gt;march time&lt;/font&gt;&lt;/u&gt;, 2/4, contains two quarter notes per measure.
+    </string>
+
+    <string name="lesson4_8">
+        Finally, the odd one out- 6/8 time.  This meter contains six eighth notes per measure, but you might notice that the duration of notes in a 6/8 measure is equivalent to that in a 3/4 measure.  Although this is a somewhat cosmetic difference, they do differ in the typical type and grouping of notes.  6/8 time is based on eighth notes- hence, it tends to have a quicker rhythm.
+    </string>
+
+    <string name="lesson4_9">
+        Keep in mind that a beat does not constitute a second in real time.  Time signatures indicate the duration of a measure and the type of note per beat, and the different types of notes and rests are defined by their relationship with each other.  The actual  &lt;u&gt;&lt;font color=#00b6cb&gt;tempo&lt;/font&gt;&lt;/u&gt;, measured in beats per minute (BPM), is sometimes marked at the top of a piece of sheet music.
+    </string>
+
+    <string name="lesson5_1">
+        In the previous lesson, you learned about measures and time signatures.  For example, two quarters notes, worth two beats, would fill up a measure in 2/4 time.  But what happens if you need three beats or more?
+    </string>
+
+    <string name="lesson5_2">
+        In such a case, the relationship between notes comes into play.  It is not possible to add a whole note, which is worth four beats, to a measure that can only hold two beats- but you do know that a whole note is worth two half notes.
+    </string>
+
+    <string name="lesson5_3">
+        If two half notes of the same pitch are next to each other on a staff, then that would indicate that the note is played twice.  But if a &lt;u&gt;&lt;font color=#00b6cb&gt;tie&lt;/font&gt;&lt;/u&gt; was drawn between them, then that would indicate that a note is held for the duration of those two notes combined.
+    </string>
+
+    <string name="lesson5_4">
+        Aside from extending notes past the duration of a measure, a tie can also be used to merge the durations of a half note and quarter note to create a note with three beats- but a more efficient method of doing so would be to use a &lt;u&gt;&lt;font color=#00b6cb&gt;dot&lt;/font&gt;&lt;/u&gt;.
+    </string>
+
+    <string name="lesson5_5">
+        A dot increases the duration of a note or rest by half of its value.  The value of a half note halved is equal to a quarter note.  Thus, a dotted half note is the equivalent of the combined durations of a half note and quarter note.
+    </string>
+
+    <string name="lesson5_6">
+         This also means that along with ties, dotted notes and rests make it possible for a duration to be fractional.  For example, the duration of a dotted quarter note, or a quarter note tied to an eighth note, is one-and-a-half beats.
+    </string>
+
+    <string name="lesson6_1">
+        This next lesson will be about steps and &lt;u&gt;&lt;font color=#00b6cb&gt;accidentals&lt;/font&gt;&lt;/u&gt;.  To better illustrate this information, let us use a keyboard.
+    </string>
+
+    <string name="lesson6_2">
+        Recall that in Lesson 1, you learned about how notes are placed on the lines and spaces of a staff to indicate pitch.  Each line and space also represents a white key on a keyboard.  The further right a key is on a keyboard, the higher its pitch.
+    </string>
+
+    <string name="lesson6_3">
+        A typical piano has 52 white keys.  Starting from the C on the left end, you can count a total of seven octaves on a piano, with three other miscellaneous keys on either end.  The Middle C on a grand staff corresponds to a note in the fourth octave from the left- thus, following this naming convention (SPN), the Middle C would also be known as C4.
+    </string>
+
+    <string name="lesson6_4">
+        For the purpose of this lesson, we will be using a range of notes around the Middle C- from C3 to B4.
+    </string>
+
+    <string name="lesson6_5">
+        In music, an &lt;u&gt;&lt;font color=#00b6cb&gt;interval&lt;/font&gt;&lt;/u&gt; is the distance between two notes.  This is based on the number of lines and spaces between two notes on a staff, or the distance between two keys on a keyboard.
+    </string>
+
+    <string name="lesson6_6">
+        The smallest interval in modern music is the &lt;u&gt;&lt;font color=#00b6cb&gt;half step&lt;/font&gt;&lt;/u&gt;.  On a keyboard, this is the distance between two adjacent keys- a white key to a black key, a black key to a white key, an E key to F key, or a B key to C key.
+    </string>
+
+    <string name="lesson6_7">
+        On a staff, all the lines and spaces represent a white key.  Black keys, then, are portrayed by accidentals adjoined to a note.
+    </string>
+
+    <string name="lesson6_8">
+         A &lt;u&gt;&lt;font color=#00b6cb&gt;sharp&lt;/font&gt;&lt;/u&gt; is a type of accidental shaped like a pound sign that, when attached to a note, elevates it by half a step.  For example, if a sharp is attached to a C note, then it becomes C#- the black key to the right of a C key.
+    </string>
+
+    <string name="lesson6_9">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;flat&lt;/font&gt;&lt;/u&gt;, on the other hand, does the opposite; instead of elevating a note by half a step, it lowers it.  If a flat was attached to a D note, then it would become the black key to the left of D- which is also equivalent to C#.
+    </string>
+
+    <string name="lesson6_10">
+        This also means that if a sharp was attached to an E note, it becomes F- and vice versa, if a flat was used instead.
+    </string>
+
+    <string name="lesson6_11">
+        If a sharp or flat is used in a piece of music, then that accidental usually persists for the remainder of the measure- meaning, if the note carrying the accidental was played again in the same measure, it would automatically be played with a sharp or flat even without the accidental attached.
+    </string>
+
+    <string name="lesson6_12">
+        Of course, there are instances where you would not want that.  In these cases, a &lt;u&gt;&lt;font color=#00b6cb&gt;natural&lt;/font&gt;&lt;/u&gt; sign would be used.  Naturals cancel out other accidentals.
+    </string>
+
+    <string name="lesson6_13">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;whole step&lt;/font&gt;&lt;/u&gt; is simply the distance of two half steps.  For instance, there is a whole step between C and D, or E and F#.
+    </string>
+
+    <string name="lesson6_14">
+        You may have noticed that that range of a piano goes far beyond that of a staff.  When a pitch higher or lower than the range of the staff is required, &lt;u&gt;&lt;font color=#00b6cb&gt;ledger lines&lt;/font&gt;&lt;/u&gt; can be added to extend the range.  Ledger lines are simply short lines spaced evenly apart on the stem of a note.
+    </string>
+
+    <string name="lesson7_1">
+        A &lt;u&gt;&lt;font color=#00b6cb&gt;key signature&lt;/font&gt;&lt;/u&gt; is the combination of sharps or flats found at the beginning of a staff, after the clef and before the time signature.
+    </string>
+
+    <string name="lesson7_2">
+        The positioning of the sharps and flats in the key signature determines the accidentals that are played throughout a piece of music.  If, for example, a key signature is composed of a single sharp positioned in the line denoting an F key, then every F note written in the piece would be played as an F# even without an accidental attached to it- unless a natural sign was used.
+    </string>
+
+    <string name="lesson7_3">
+        Key signatures contain specific combinations of accidentals named after the different &lt;u&gt;&lt;font color=#00b6cb&gt;scales&lt;/font&gt;&lt;/u&gt;.  A scale is a set of eight notes ascending in a particular pattern of whole and half steps.  Each scale is named after its starting note.
+    </string>
+
+    <string name="lesson7_4">
+        For this lesson, you will only need to know about the &lt;u&gt;&lt;font color=#00b6cb&gt;major scale&lt;/font&gt;&lt;/u&gt;.  Every major scale shares a specific pattern of whole and half steps- that is, whole steps for every step except between the third and fourth and seventh and eighth steps, for which half steps are used instead.
+    </string>
+
+    <string name="lesson7_5">
+        These steps also determine what black keys are being played throughout the scale- and thus, the accidentals and key signature of the scale.  For example, using the major scale pattern, you can see that the C major scale is played entirely on white keys.
+    </string>
+
+    <string name="lesson7_6">
+        In that case, there are zero sharps or flats in the key signature- and that means that it has a C major key signature.
+    </string>
+
+    <string name="lesson7_7">
+        An easier way to remember all of the key signatures and their corresponding scales is by using the &lt;u&gt;&lt;font color=#00b6cb&gt;Circle of Fifths&lt;/font&gt;&lt;/u&gt;.
+    </string>
+
+    <string name="lesson7_8">
+        As you can see, the key signatures are placed on the outside of the circle, with the corresponding major keys on the inside.  The Circle of Fifths is named so because there is an interval of five notes between each adjacent key within the circle.
+    </string>
+
+    <string name="lesson7_9">
+        For example, there are five keys from the C key to the G key- and accordingly, one sharp (F#) is added to the key signature.  If you count five keys up from G, then you get the D key, which has two sharps.  Notice that the sharp that is added- C#- is five intervals up from the F# key.  This pattern continues up to the C# major key signature.
+    </string>
+
+    <string name="lesson7_10">
+        And on the left of the C major key, you can see the F key is five intervals down from C- with a Bb added to the key signature.  The left side of the circle shares the same pattern as the right side, except you are counting down instead.
+    </string>
+
+    <string name="lesson8_1">
+        Congratulations!  This is the final lesson.  If you have retained everything so far, you may be surprised to note that you now have the knowledge to read a simple piece of sheet music.
+    </string>
+
+    <string name="lesson8_2">
+        Here is a review of everything so far:&lt;br>&lt;br>In Lesson 1, you learned the names of notes and how their placement on a staff determines their pitch.&lt;br>&lt;br>In Lesson 2, you learned about different types of notes and how their shape determines the duration that they are held.&lt;br>&lt;br>In Lesson 3, you learned about different types of rests and how their shape determines the duration of silence.&lt;br>&lt;br>In Lesson 4, you learned about time signatures and how different types of notes and rests can be combined to fill up a measure.&lt;br>&lt;br>In Lesson 5, you learned about dots and ties and how they are used to adjust the duration of notes within and beyond a measure.&lt;br>&lt;br>In Lesson 6, you learned about steps and how accidentals are used to adjust the pitch of a note.&lt;br>&lt;br>In Lesson 7, you learned about key signatures and how they determine the accidentals played throughout a piece of music.
+    </string>
+
+    <string name="lesson8_3">
+        So now, can you tell what everything is in this piece of music?
+    </string>
+
+    <string name="lesson8_4">
+        If you can, then good job!  And if not, then it never hurts to review.  Learning music theory is a process- it takes time and patience.  These lessons have introduced you to the world of music theory, but this is, of course, only the tip of the iceberg.  If you would like to learn more, then you can find many resources online and in books.&lt;br>&lt;br>Best of luck on your journey!
+    </string>
+
+    <string name="dotted">
+        &#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.
+        &#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.&#160;.
+    </string>
+
+    <string name="scale">
+        &lt;b>Scale&lt;/b>&lt;br>&lt;br>&lt;small>A set of musical notes ordered by fundamental frequency or pitch.&lt;/small>
+    </string>
+
+    <string name="staff">
+        &lt;b>Staff&lt;/b>&lt;br>&lt;br>&lt;small>A set of five horizontal lines and four spaces that represents different musical pitch.&lt;/small>
+    </string>
+
+    <string name="clef">
+        &lt;b>Clef&lt;/b>&lt;br>&lt;br>&lt;small>A musical symbol used to indicate the pitch of notes written on a staff.&lt;/small>
+    </string>
+
+    <string name="grand">
+        &lt;b>Grand Staff&lt;/b>&lt;br>&lt;br>&lt;small>A pair of five-lined staffs connected by a brace with the Treble Clef on top and the Bass Clef at the bottom.&lt;/small>
+    </string>
+
+    <string name="middle">
+        &lt;b>Middle C&lt;/b>&lt;br>&lt;br>&lt;small>The note graphically represented on the first ledger line below the Treble staff or the first ledger line above the Bass staff in the middle of the grand staff.&lt;/small>
+    </string>
+
+    <string name="octave">
+        &lt;b>Octave&lt;/b>&lt;br>&lt;br>&lt;small>A series of eight notes occupying the interval between (and including) a note and another with double or half its frequency.&lt;/small>
+    </string>
+
+    <string name="ledger">
+        &lt;b>Ledger line&lt;/b>&lt;br>&lt;br>&lt;small>A short line added to the stem of a note above or below the range of a staff.&lt;/small>
+    </string>
+
+    <string name="duration">
+        &lt;b>Duration&lt;/b>&lt;br>&lt;br>&lt;small>A length of time with regards to the number of notes per beat.&lt;/small>
+    </string>
+
+    <string name="beat">
+        &lt;b>Beat&lt;/b>&lt;br>&lt;br>&lt;small>The speed at which a piece of music is played.&lt;/small>
+    </string>
+
+    <string name="wholenote">
+        &lt;b>Whole Note&lt;/b>&lt;br>&lt;br>&lt;small>The longest note commonly used.&lt;/small>
+    </string>
+
+    <string name="halfnote">
+        &lt;b>Half Note&lt;/b>&lt;br>&lt;br>&lt;small>A note with half the duration of a whole note.&lt;/small>
+    </string>
+
+    <string name="quarternote">
+        &lt;b>Quarter Note&lt;/b>&lt;br>&lt;br>&lt;small>A note with half the duration of a half note.&lt;/small>
+    </string>
+
+    <string name="eighthnote">
+        &lt;b>Eighth Note&lt;/b>&lt;br>&lt;br>&lt;small>A note with half the duration of a quarter note.&lt;/small>
+    </string>
+
+    <string name="sixteenthnote">
+        &lt;b>Sixteenth Note&lt;/b>&lt;br>&lt;br>&lt;small>A note with half the duration of an eighth note.&lt;/small>
+    </string>
+
+    <string name="rest">
+        &lt;b>Rest&lt;/b>&lt;br>&lt;br>&lt;small>A musical symbol that marks a period of silence.&lt;/small>
+    </string>
+
+    <string name="wholerest">
+        &lt;b>Whole Rest&lt;/b>&lt;br>&lt;br>&lt;small>The longest rest; equivalent to a whole note.&lt;/small>
+    </string>
+
+    <string name="halfrest">
+        &lt;b>Half Rest&lt;/b>&lt;br>&lt;br>&lt;small>A rest with half the duration of a whole rest; equivalent to a half note.&lt;/small>
+    </string>
+
+    <string name="quarterrest">
+        &lt;b>Quarter Rest&lt;/b>&lt;br>&lt;br>&lt;small>A rest with half the duration of a half rest; equivalent to a quarter note.&lt;/small>
+    </string>
+
+    <string name="eighthrest">
+        &lt;b>Eighth Rest&lt;/b>&lt;br>&lt;br>&lt;small>A rest with half the duration of a quarter rest; equivalent to an eighth note.&lt;/small>
+    </string>
+
+    <string name="sixteenthrest">
+        &lt;b>Sixteenth Rest&lt;/b>&lt;br>&lt;br>&lt;small>A rest with half the duration of an eighth rest; equivalent to a sixteenth note.&lt;/small>
+    </string>
+
+    <string name="measure">
+        &lt;b>Measure&lt;/b>&lt;br>&lt;br>&lt;small>A segment of time on a staff corresponding to a specific number of beats set by the time signature.&lt;/small>
+    </string>
+
+    <string name="barline">
+        &lt;b>Bar Line&lt;/b>&lt;br>&lt;br>&lt;small>A vertical line used to divide a musical staff into measures.&lt;/small>
+    </string>
+
+    <string name="timesignature">
+        &lt;b>Time Signature&lt;/b>&lt;br>&lt;br>&lt;small>Two vertically stacked numbers that determine the number of beats in a measure and what note value is equivalent to one beat.&lt;/small>
+    </string>
+
+    <string name="commontime">
+        &lt;b>Common Time&lt;/b>&lt;br>&lt;br>&lt;small>A rhythmic pattern in which there are four beats, or quarter notes, in a measure; portrayed as 4/4 on a time signature.&lt;/small>
+    </string>
+
+    <string name="waltztime">
+        &lt;b>Waltz Time&lt;/b>&lt;br>&lt;br>&lt;small>A rhythmic pattern in which there are three beats, or quarter notes, in a measure; portrayed as 3/4 on a time signature.&lt;/small>
+    </string>
+
+    <string name="marchtime">
+        &lt;b>March Time&lt;/b>&lt;br>&lt;br>&lt;small>A rhythmic pattern in which there are two beats, or quarter notes, in a measure; portrayed as 2/4 on a time signature.&lt;/small>
+    </string>
+
+    <string name="tempo">
+        &lt;b>Tempo&lt;/b>&lt;br>&lt;br>&lt;small>The speed at which a piece of music is played, measured in beats per minute (BPM).&lt;/small>
+    </string>
+
+    <string name="tie">
+        &lt;b>Tie&lt;/b>&lt;br>&lt;br>&lt;small>A curved line connecting the heads of two notes of the same pitch and name, indicating that they are to be played as a single note with a duration equal to the sum of their values.&lt;/small>
+    </string>
+
+    <string name="dot">
+        &lt;b>Dot&lt;/b>&lt;br>&lt;br>&lt;small>A small dot drawn next to a note to indicate that the duration of the note is increased by half of its original value.&lt;/small>
+    </string>
+
+    <string name="interval">
+        &lt;b>Interval&lt;/b>&lt;br>&lt;br>&lt;small>The difference between two pitches.&lt;/small>
+    </string>
+
+    <string name="accidental">
+        &lt;b>Accidental&lt;/b>&lt;br>&lt;br>&lt;small>Symbols used to modify a note by temporarily raising or lowering its pitch.&lt;/small>
+    </string>
+
+    <string name="halfstep">
+        &lt;b>Half Step&lt;/b>&lt;br>&lt;br>&lt;small>The interval between two adjacent notes.&lt;/small>
+    </string>
+
+    <string name="sharp">
+        &lt;b>Sharp&lt;/b>&lt;br>&lt;br>&lt;small>An accidental that raises the pitch of a note by a half step.&lt;/small>
+    </string>
+
+    <string name="flat">
+        &lt;b>Flat&lt;/b>&lt;br>&lt;br>&lt;small>An accidental that lowers the pitch of a note by a half step.&lt;/small>
+    </string>
+
+    <string name="natural">
+        &lt;b>Natural&lt;/b>&lt;br>&lt;br>&lt;small>An accidental that cancels previous accidentals and represents an unaltered pitch of a note..&lt;/small>
+    </string>
+
+    <string name="wholestep">
+        &lt;b>Whole Step&lt;/b>&lt;br>&lt;br>&lt;small>An interval comprising of two half steps.&lt;/small>
+    </string>
+
+    <string name="keysignature">
+        &lt;b>Key Signature&lt;/b>&lt;br>&lt;br>&lt;small>A collection of sharps or flats placed on a staff to indicate that the corresponding notes are to be played with accidentals.&lt;/small>
+    </string>
+
+    <string name="majorscale">
+        &lt;b>Major Scale&lt;/b>&lt;br>&lt;br>&lt;small>A scale with half steps between the third and fourth steps and the seventh and eighth steps, with whole steps between every other step.&lt;/small>
+    </string>
+
+    <string name="circleoffifths">
+        &lt;b>Circle of Fifths&lt;/b>&lt;br>&lt;br>&lt;small>A diagram illustrating the relationship between different keys and their corresponding key signatures.&lt;/small>
+    </string>
+
+</resources>

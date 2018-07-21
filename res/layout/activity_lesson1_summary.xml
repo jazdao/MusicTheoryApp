@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/summary1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:background="#188291"
+            android:text="Summary"
+            android:textSize="35sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <TextView
+            android:id="@+id/lesson1_key1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            android:text="Staff"
+            app:layout_constraintTop_toBottomOf="@id/summary1"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/staff2"
+            app:layout_constraintTop_toBottomOf="@id/lesson1_key1"/>
+
+        <TextView
+            android:id="@+id/lesson1_key2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            android:text="Treble and Bass Clefs"
+            app:layout_constraintTop_toBottomOf="@id/img1"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/clefs"
+            app:layout_constraintTop_toBottomOf="@id/lesson1_key2"/>
+
+        <TextView
+            android:id="@+id/lesson1_key3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            android:text="Grand Staff"
+            app:layout_constraintTop_toBottomOf="@id/img2"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/grandstaff"
+            app:layout_constraintTop_toBottomOf="@id/lesson1_key3"/>
+
+        <TextView
+            android:id="@+id/lesson1_key4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            android:text="Octave"
+            app:layout_constraintTop_toBottomOf="@id/img3"/>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/octave"
+            app:layout_constraintTop_toBottomOf="@id/lesson1_key4"/>
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="#188291"
+            android:text="♪   Quiz"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginTop="75dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img4"/>
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#164d56"
+            android:text="@string/ornament"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#f9f9f9"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/next2"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

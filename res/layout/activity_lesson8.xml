@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fff">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/bringing"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:background="#188291"
+            android:text="Bringing Everything Together"
+            android:textSize="35sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <TextView
+            android:id="@+id/lesson8_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/bringing"/>
+
+        <TextView
+            android:id="@+id/lesson8_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/lesson8_1"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/music"
+            app:layout_constraintTop_toBottomOf="@id/lesson8_2"/>
+
+        <TextView
+            android:id="@+id/lesson8_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img2"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/sheet"
+            app:layout_constraintTop_toBottomOf="@id/lesson8_3"/>
+
+        <TextView
+            android:id="@+id/lesson8_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="70dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img3"/>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/happy"
+            app:layout_constraintTop_toBottomOf="@id/lesson8_4"/>
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="#188291"
+            android:text="♪   Home"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginTop="75dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img4"/>
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#164d56"
+            android:text="@string/ornament"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#f9f9f9"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/home"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

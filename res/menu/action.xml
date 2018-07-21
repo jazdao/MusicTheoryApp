@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/action">
+
+    <item
+        android:id="@+id/menu_main"
+        android:title="Main Menu"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_lessons"
+        android:title="Lessons"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_practice"
+        android:title="Practice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_glossary"
+        android:title="Glossary"
+        app:showAsAction="never"/>
+
+</menu>

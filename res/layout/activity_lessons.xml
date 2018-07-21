@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fall"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/lessons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="30dp"
+            android:background="#188291"
+            android:text="Lessons"
+            android:textSize="45sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <Button
+            android:id="@+id/lessonOne"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#71cddd"
+            android:text="@string/multilines1"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessons"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonTwo"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#00b6cb"
+            android:text="@string/multilines2"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonOne"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonThree"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#12a3b4"
+            android:text="@string/multilines3"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonTwo"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonFour"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#188291"
+            android:text="@string/multilines4"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonThree"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonFive"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#17616b"
+            android:text="@string/multilines5"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonFour"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonSix"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#164d56"
+            android:text="@string/multilines6"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonFive"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonSeven"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#13393e"
+            android:text="@string/multilines7"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonSix"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <Button
+            android:id="@+id/lessonEight"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:background="#122a2e"
+            android:text="@string/multilines8"
+            android:textSize="23sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonSeven"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            app:layout_constraintTop_toBottomOf="@id/lessonEight"/>
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#164d56"
+            android:text="@string/ornament"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#f9f9f9"
+            app:layout_constraintTop_toBottomOf="@id/space"/>
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
+
+

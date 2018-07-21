@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#fff">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/counting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="center"
+            android:background="#188291"
+            android:text="Counting Rests"
+            android:textSize="35sp"
+            android:textColor="#fdfcfc"
+            android:fontFamily="@font/wendy"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <TextView
+            android:id="@+id/lesson3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/counting"/>
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/ellipse"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_1"/>
+
+        <TextView
+            android:id="@+id/lesson3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img1"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rwhole"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_2"/>
+
+        <TextView
+            android:id="@+id/lesson3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="70dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img2"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/rhalf"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_3"/>
+
+        <TextView
+            android:id="@+id/lesson3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="70dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img3"/>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/rquarter"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_4"/>
+
+        <TextView
+            android:id="@+id/lesson3_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="80dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img4"/>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/rflag"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_5"/>
+
+        <TextView
+            android:id="@+id/lesson3_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="70dp"
+            android:textColor="#17616b"
+            android:textSize="23sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img5"/>
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/flag"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_6"/>
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:background="#188291"
+            android:text="♪   Next"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:layout_marginTop="75dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img6"/>
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#164d56"
+            android:text="@string/ornament"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#f9f9f9"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@id/next1"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

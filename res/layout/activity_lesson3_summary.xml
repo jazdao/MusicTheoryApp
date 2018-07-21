@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/summary1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#188291"
+            android:fontFamily="@font/wendy"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Summary"
+            android:textAlignment="center"
+            android:textColor="#fdfcfc"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <TextView
+            android:id="@+id/lesson3_key1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/wendy"
+            android:text="Rest = Silence"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/summary1" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ellipse"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key1" />
+
+        <TextView
+            android:id="@+id/lesson3_key2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Whole Rest = Whole Note"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/rwhole"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key2" />
+
+        <TextView
+            android:id="@+id/lesson3_key3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Half Rest = Half Note"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/rhalf"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key3" />
+
+        <TextView
+            android:id="@+id/lesson3_key4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Quarter Rest = Quarter Note"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img3" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/rquarter"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key4" />
+
+        <TextView
+            android:id="@+id/lesson3_key5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="8th Rest = 8th Note"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img4" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/r8"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key5" />
+
+        <TextView
+            android:id="@+id/lesson3_key6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="16th Rest = 16th Note"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img5" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/r16"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key6" />
+
+        <TextView
+            android:id="@+id/lesson3_key7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Relationship Between Rests"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img6" />
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/relationship2"
+            app:layout_constraintTop_toBottomOf="@id/lesson3_key7" />
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="75dp"
+            android:background="#188291"
+            android:fontFamily="sans-serif-condensed"
+            android:text="♪   Quiz"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img7" />
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:background="#164d56"
+            android:gravity="center"
+            android:text="@string/ornament"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/next2" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

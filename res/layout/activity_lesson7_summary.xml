@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <TextView
+            android:id="@+id/summary1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#188291"
+            android:fontFamily="@font/wendy"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="Summary"
+            android:textAlignment="center"
+            android:textColor="#fdfcfc"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"/>
+
+        <TextView
+            android:id="@+id/lesson7_key1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/wendy"
+            android:text="Staff Notation"
+            android:textColor="#17616b"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/summary1" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/notation"
+            app:layout_constraintTop_toBottomOf="@id/lesson7_key1" />
+
+        <TextView
+            android:id="@+id/lesson7_key2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Scale"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/cscale"
+            app:layout_constraintTop_toBottomOf="@id/lesson7_key2" />
+
+        <TextView
+            android:id="@+id/lesson7_key3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Major Scale Step Pattern"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/keyboard7"
+            app:layout_constraintTop_toBottomOf="@id/lesson7_key3" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/steps"
+            app:layout_constraintTop_toBottomOf="@id/img3" />
+
+        <TextView
+            android:id="@+id/lesson7_key4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wendy"
+            android:text="Circle of Fifths"
+            android:textColor="#17616b"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/img4" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/circle2"
+            app:layout_constraintTop_toBottomOf="@id/lesson7_key4" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/circle"
+            app:layout_constraintTop_toBottomOf="@id/img6" />
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="75dp"
+            android:background="#188291"
+            android:fontFamily="sans-serif-condensed"
+            android:text="♪   Quiz"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/img5" />
+
+        <TextView
+            android:id="@+id/ornament"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="30dp"
+            android:background="#164d56"
+            android:gravity="center"
+            android:text="@string/ornament"
+            android:textColor="#f9f9f9"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/next2" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
