@@ -231,7 +231,7 @@ public class QuestionLibrary {
             "Bb",
             "F",
             "C",
-            "accidentals",
+            "accidentals on notes",
             "double",
             "B"
     };
