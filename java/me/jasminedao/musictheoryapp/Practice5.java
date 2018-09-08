@@ -214,7 +214,7 @@ public class Practice5 extends AppCompatActivity {
 
     public void updateQuestion() {
         questionNum++;
-        question = random.nextInt(43);
+        question = random.nextInt(44);
 
         q.setText(questions[question]);
 

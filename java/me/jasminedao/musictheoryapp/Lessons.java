@@ -119,4 +119,9 @@ public class Lessons extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(Lessons.this, MainActivity.class));
+    }
 }

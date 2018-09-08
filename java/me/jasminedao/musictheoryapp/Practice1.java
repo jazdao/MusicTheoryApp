@@ -340,7 +340,7 @@ public class Practice1 extends AppCompatActivity {
 
     public void updateQuestion() {
         questionNum++;
-        question = random.nextInt((23)+1);
+        question = random.nextInt((24)+1);
 
         if (question >= 1 && question <= 12) {
             c4.setText("C4");
@@ -356,7 +356,7 @@ public class Practice1 extends AppCompatActivity {
             f5.setText("F5");
             g5.setText("G5");
         }
-        else {
+        else if (question > 12 && question <= 24){
             c4.setText("C4");
             d4.setText("B3");
             e4.setText("A3");
@@ -372,6 +372,10 @@ public class Practice1 extends AppCompatActivity {
         }
 
         switch (question) {
+            default:
+                image.setImageResource(R.drawable.treblec);
+                answer = findViewById(R.id.c4);
+                soundpool.play(sound1, 1, 1, 0, 0, 1);
             case 1:
                 image.setImageResource(R.drawable.treblec);
                 answer = findViewById(R.id.c4);

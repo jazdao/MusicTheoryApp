@@ -258,7 +258,7 @@ public class Practice7 extends AppCompatActivity {
 
     public void updateQuestion() {
         questionNum++;
-        question = random.nextInt((14) + 1);
+        question = random.nextInt((15) + 1);
 
         if (question >= 1 && question <= 8) {
             c.setText("C Major");
@@ -270,7 +270,7 @@ public class Practice7 extends AppCompatActivity {
             b.setText("B Major");
             cs.setText("C# Major");
         }
-        else {
+        else if (question > 8 && question <=15) {
             c.setText("C Major");
             d.setText("Bb Major");
             e.setText("Ab Major");
@@ -283,6 +283,10 @@ public class Practice7 extends AppCompatActivity {
 
 
         switch (question) {
+            default:
+                image.setImageResource(R.drawable.keyc);
+                answer = findViewById(R.id.c);
+                soundpool.play(sound1, 1, 1, 0, 0, 1);
             case 1:
                 image.setImageResource(R.drawable.keyc);
                 answer = findViewById(R.id.c);

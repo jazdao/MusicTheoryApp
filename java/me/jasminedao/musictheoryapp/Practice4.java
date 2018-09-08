@@ -117,7 +117,7 @@ public class Practice4 extends AppCompatActivity {
 
     public void updateQuestion() {
         questionNum++;
-        question = random.nextInt((87)+1);
+        question = random.nextInt((88)+1);
 
         switch (question) {
             case 1:
