@@ -133,14 +133,14 @@ public class QuestionLibrary {
     };
 
     private String mChoices4[][] = {
-        {"barlines","sections","measures"},
+        {"bar lines","sections","measures"},
             {"key signature","time signature","type of note"},
                 {"the number of notes per measure","the type of note","the duration"},
                     {"whole note","half note","quarter note"},
                         {"2 half notes","4 half notes","2 quarter notes"},
                             {"half notes","quarter notes","eighth notes"},
                                 {"3 quarter notes","3 half notes","It depends."},
-                                    {"4 half notes","8 eighth notes","1 whole note"},
+                                    {"4 half notes","8 eighth notes","2 whole notes"},
                                         {"4 half notes","8 eighth notes","4 sixteenth notes"},
                                             {"12/16 time","4/8 time","6/4 time"}
     };
@@ -152,7 +152,7 @@ public class QuestionLibrary {
                     "quarter note",
                         "4 half notes",
                             "quarter notes",
-                                "It depends",
+                                "It depends.",
                                     "8 eighth notes",
                                         "4 sixteenth notes",
                                             "12/16 time"
